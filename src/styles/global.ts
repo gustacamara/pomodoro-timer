@@ -16,11 +16,12 @@ export const GlobalStyle = createGlobalStyle`
   body{
     background-color: ${props => props.theme['gray-900']};
     color: ${props => props.theme['green-300']};
+    -webkit-font-smothig: antialiased;
   }
 
   body, input, text-area, button {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 `
