@@ -1,50 +1,28 @@
-# React + TypeScript + Vite
+# Simple Pomodoro⏱️
+_A resilient timer application built with React for productivity tracking_
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/user-attachments/assets/29ebda06-e966-4a52-8a43-113a5f8ed9cd)
+> Homepage image
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/8f405148-8924-4325-b91c-7e26c0ec5b46)
+> History image
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Features
+- **Hibernation-resistant timer** (background tabs)
+- **Context-managed state** with Zod validation
+- **Three-phase tracking**:
+  - 🟢 `FINISHED` (completed duration)
+  - 🟠 `IN_PROGRESS` (active session)
+  - 🔴 `INTERRUPTED` (manual stop)
+- **Detailed history**:
+  - Task name
+  - Start timestamp (formatted with date-fns)
+  - Duration in minutes
+  - Completion status
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🛠️ Technical Implementation
+  - Zod Object
+  - Date Fns Formatting
+  - Use context
+  - Use effect
+  - Stiled components 
