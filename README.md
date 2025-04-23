@@ -1,14 +1,12 @@
-# Simple Pomodoro⏱️
-_A resilient timer application built with React for productivity tracking_
+# Simple Pomodoro
+_A resilient timer application built with React for productivity tracking. Made following Ignite Rocketseat course_
 
 ![image](https://github.com/user-attachments/assets/29ebda06-e966-4a52-8a43-113a5f8ed9cd)
-> Homepage image
 
 ![image](https://github.com/user-attachments/assets/8f405148-8924-4325-b91c-7e26c0ec5b46)
-> History image
 
-## 🚀 Key Features
-- **Hibernation-resistant timer** (background tabs)
+## Key Features
+- **Hibernation-resistant timer** (works in background tabs)
 - **Context-managed state** with Zod validation
 - **Three-phase tracking**:
   - 🟢 `FINISHED` (completed duration)
@@ -20,9 +18,15 @@ _A resilient timer application built with React for productivity tracking_
   - Duration in minutes
   - Completion status
 
-## 🛠️ Technical Implementation
-  - Zod Object
-  - Date Fns Formatting
-  - Use context
-  - Use effect
-  - Stiled components 
+## Technical Implementation
+  - React
+  - TypeScript
+  - Styled Components
+  - date-fns
+  - Zod
+
+
+## How To Run
+```sh
+npm install
+npm run dev
