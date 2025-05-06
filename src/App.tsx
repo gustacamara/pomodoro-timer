@@ -7,6 +7,7 @@ import { GlobalStyle } from './styles/global';
 import { Router } from './Router';
 import { CycleContextProvider } from './contexts/CyclesContext';
 
+
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
