@@ -121,7 +121,7 @@ Please change the parent <Route path="${j}"> to <Route path="${j==="/"?"*":`${j}
 
       &:first-child{
         padding-left: 1.5rem;
-        width: 50%;
+        width: 40%;
       }
 
       &:last-child{
