@@ -1,4 +1,4 @@
-# Simple Pomodoro
+# Task timer
 _A resilient timer application built with React for productivity tracking. Made following Ignite Rocketseat course_
 
 ![image](https://github.com/user-attachments/assets/29ebda06-e966-4a52-8a43-113a5f8ed9cd)
