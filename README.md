@@ -5,6 +5,8 @@ _A resilient timer application built with React for productivity tracking. Made 
 
 ![image](https://github.com/user-attachments/assets/8f405148-8924-4325-b91c-7e26c0ec5b46)
 
+> [Link to the task timer page](https://gustacamara.github.io/task-timer/)
+
 ## Key Features
 - **Hibernation-resistant timer** (works in background tabs)
 - **Context-managed state** with Zod validation
@@ -24,9 +26,3 @@ _A resilient timer application built with React for productivity tracking. Made 
   - Styled Components
   - date-fns
   - Zod
-
-
-## How To Run
-```sh
-npm install
-npm run dev
