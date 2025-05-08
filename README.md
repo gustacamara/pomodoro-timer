@@ -24,6 +24,8 @@ _A resilient timer application built with React for productivity tracking. Made 
   - React
   - TypeScript
   - Styled Components
-  - date-fns
+  - date-fns format
   - Zod
-  - Contexts
+  - Contexts Providers
+  - Routes
+  - Reducers
