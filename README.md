@@ -26,3 +26,4 @@ _A resilient timer application built with React for productivity tracking. Made 
   - Styled Components
   - date-fns
   - Zod
+  - Contexts
